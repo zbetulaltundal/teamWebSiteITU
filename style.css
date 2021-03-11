@@ -1,0 +1,521 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#header{
+    color: white;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    overflow:hidden;
+    background-color:#000000;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.search-box{
+    display: none;
+}
+
+.navbar input[type=text] {
+    border: 1px solid gray;  
+}
+
+.navbar-col{
+    float: left;
+    width: 40px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.md-lg-screen{
+    display: none;
+}
+
+#sidebar-icon, #searchBtn{
+    float: left;
+}
+
+#login, #shop{
+    float: right;
+}
+
+#logo-img{
+    width: 48px;
+}
+
+.navIcon{
+    width: 16px;
+    padding-top: 15px;
+}
+
+#banner{
+    width: 100%;
+    background-color: #fadadd;
+    /*background-color: radial-gradient(#fff,#ffd6d6); gozukmuyor??*/
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+#banner-content-before{
+    padding-top: 40px;
+}
+
+#banner-im1{
+    width: 300px;
+    padding: 10px;
+}
+
+.banner-im2{
+    width: 100%;
+    padding: 10px;
+}
+
+#banner-content{
+    color: black;
+    float: inline-end;
+    margin: 15px;
+}
+
+.exploreBtn {
+    display: inline-block;
+    background:rgb(230, 0, 230, 0.452);
+    padding:8px 30px;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+
+.exploreBtn a{
+    text-decoration: none;
+    color: rgb(6, 22, 6);
+}
+
+.exploreBtn:hover {
+    background: rgb(29, 7, 128);
+}
+
+.exploreBtn a:hover{
+    color:white;
+}
+
+#content{
+    width: 100%;
+    margin: 10px;
+    margin: 100px 0px;
+}
+
+#navigate{
+    margin-left: 10px;
+}
+
+#navigate li{
+    display: block;
+    float: left;
+}
+
+#navigate ul{
+    list-style-type: none;
+}
+
+#navigate ul a{
+    text-decoration: none;
+    color: #2F4F4F;
+}
+
+#navigate ul a:hover{
+    text-decoration: underline;
+    color: #808080;
+}
+
+#navigate ul a:active{
+    text-decoration: underline;
+    color: #000000;
+}
+
+#content-part-2{
+    clear: both;
+}
+
+.products-col{
+    float: left;
+    width: 40%;
+    margin: 10px;
+}
+
+#products-col2{
+    float: right;
+}
+
+#products h2, #products h3{
+    font-size: smaller;
+}
+
+#products h2{
+    margin-top: 5px;
+}
+
+.product-im{
+    width: 100%;
+}
+
+.product{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content-sidebar{
+    display: none;
+}
+
+footer{
+    clear: both;
+    background-color: black;
+    color: #FAE5D3;
+    font-size: 14px;
+    width: 100%;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.footer-row{
+    padding: 30px 20px;
+}
+
+.footer-col h3, .footer-col p{
+    padding: 5px 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: turquoise;
+}
+
+footer section{
+    margin: 10px 0px;
+}
+
+.footer-col{
+    width: 100%;
+    margin: 5px 0px;
+}
+
+footer #copyright{
+    color: #E59866;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) and (max-width:1199px) {    
+
+    #navbar{
+        position: unset;
+        padding: 15px 0px;
+    }
+
+    .navbar-col{
+        width: 128px;
+    }
+
+    .md-lg-screen{
+        display: block;
+        font-size: larger;
+        font-family: calibri;
+    }
+
+    #searchBtn{
+        float: right;
+    }
+
+    #logo-img{
+        width: 128px;
+    }
+
+    .navIcon{
+        width: 56px;
+        padding: 20px 5px;
+    }
+
+    #banner{
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    #banner-content-before{
+        float: left;
+        width: 50%;
+    }
+    
+    #banner-content{
+        float: left;
+        width: 50%;
+        margin: 20px 0px;
+        padding: 0px 10px;
+        position: relative;
+        top: 100px;
+    }
+    
+    #banner-content-after{
+        clear: both;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    #banner-content h2{
+        font-size: 48px;
+    }
+
+    #banner-content p{
+        font-size: 32px;
+    }
+
+    #banner-im1{
+        width: 400px;
+        padding: 10px;
+    }
+
+    .banner-im2{
+        width: 100%;
+        padding: 10px;
+    }
+
+    #content{
+        width: 100%;
+        margin: 100px 0px;
+    }
+    
+    #navigate li{
+        font-size: 32px;
+    }
+
+    #content-part-2{
+        clear: both;
+        width: 100%;
+    }
+
+    #content-sidebar{
+        display: block;
+        width: 20%;
+        float: left;
+        padding: 30px 5px;
+    }
+
+    #content-sidebar ul{
+        list-style-type: none;
+    }
+
+    #content-sidebar a{
+        text-decoration: none;
+        font-size: 32px;
+        float: left;
+        padding: 5px 5px 5px 0px;
+    }
+    
+    #content-sidebar h2{
+        font-size: 48px;
+        width: 100%;
+    }
+    
+    #products{
+        width: 80%;
+        float: right;
+    }
+
+    .products-col{
+        float: right;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    #products h2, #products h3{
+        font-size: 16px;
+    }
+    
+    footer{
+        font-size: 18px;
+    }
+    
+    footer ul{
+        list-style-type: none;
+    }
+    
+    .footer-row{
+        display: block;
+    }
+
+    .footer-col{
+        width: 50%;
+        float: left;
+    }
+    
+    footer #copyright{
+        margin: 40px 0px 20px 0px;
+        clear: both;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    #navbar{
+        position: unset;
+        padding: 20px 0px;
+    }
+
+    .navbar-col{
+        width: 12%;
+        margin-top: 40px;
+    }
+
+    #logo{
+        margin-top: 0;
+    }
+
+    .md-lg-screen{
+        display: block;
+        float: left;
+        font-weight: bold;
+        margin-left: 15px;
+        padding-top: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .md-screen{
+        display: none;
+    }
+
+    #searchBtn{
+        float: right;
+    }
+
+    #sidebar-icon{
+        display: none;
+    }
+
+    #logo-img{
+        width: 128px;
+    }
+
+    .navIcon{
+        width: 32px;
+        float: left;
+    }
+
+    #banner{
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    #banner-content-before{
+        float: left;
+        width: 50%;
+    }
+    
+    #banner-content{
+        float: left;
+        width: 40%;
+        margin: 200px 0px;
+        position: relative;
+        top: 100px;
+    }
+    
+    #banner-content-after{
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    #banner-content h2{
+        font-size: 32px;
+    }
+
+    #banner-content p{
+        font-size: 16px;
+    }
+
+    .banner-im2{
+        width: 25%;
+        padding: 10px;
+    }
+    
+    #navigate li{
+        font-size: 18px;
+    }
+
+    #content-sidebar{
+        display: block;
+        width: 10%;
+        float: left;
+        padding: 20px 5px;
+    }
+
+    #content-sidebar ul{
+        list-style-type: none;
+        padding: 15px;
+    }
+
+    #content-sidebar a{
+        text-decoration: none;
+        font-size: 16px;
+        float: left;
+        padding: 5px 5px 5px 0px;
+    }
+    
+    #content-sidebar h2{
+        font-size: 24px;
+        width: 100%;
+    }
+    
+    #products{
+        width: 80%;
+        float: right;
+        margin-right: 40px;
+    }
+
+    .product-im{
+        width: 80%;
+    }
+
+    .products-col{
+        float: right;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    #products h2, #products h3{
+        font-size: 16px;
+    }
+    
+    footer{
+        font-size: 16px;
+        height: auto;
+    }
+    
+    footer ul{
+        list-style-type: none;
+    }
+    
+    .footer-row{
+        display: block;
+    }
+
+    .footer-col{
+        width: 33.3%;
+        float: left;
+    }
+    
+    footer #copyright{
+        margin-top: 40px;
+        clear: both;
+        font-size: 24px;
+    }
+}
