@@ -14,79 +14,78 @@
 </head>
 
 <body>
-    <div id="header">
-        <div id="navbar">
-            <div id="sidebar-icon" class="navbar-col">
-                <a href="#"><img src="images/Categories.svg" alt="categories icon" class="navIcon"></a>
-            </div>
-            <!--EOF #sidebar-icon-->
-
-            <div id="searchBtn" class="navbar-col">
-                <a href="#"><img src="images/Search.svg" alt="search icon" class="navIcon"></a>
-                <p class="md-lg-screen">SEARCH</p>
-                <div class="search-box">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
-            </div>
-            <!--EOF #searchBtn-->
-
-            <div id="logo" class="navbar-col">
-                <a href="#"><img src="images/logo.png" id="logo-img" alt="logo here"></a>
-                <p class="md-lg-screen md-screen">NEMO SWEATSHIRTS</p>
-            </div>
-            <!--EOF #logo-->
-
-            <div id="shop" class="navbar-col">
-                <a href="#"><img src="images/Order.svg" alt="shopping bag icon" class="navIcon"></a>
-                <p class="md-lg-screen">SHOPPING BAG</p>
-            </div>
-            <!--EOF #shop-->
-
-            <div id="login" class="navbar-col">
-                <a href="#"><img src="images/Person.svg" alt="sign in icon" class="navIcon"></a>
-                <p class="md-lg-screen">LOG IN</p>
-            </div>
-            <!--EOF #login-->
+    <div id="navbar">
+        <div id="sidebar-icon" class="navbar-col">
+            <a href="#"><img src="images/menu.png" alt="categories icon" class="navIcon"></a>
         </div>
-        <!--EOF #navbar-->
+        <!--EOF #sidebar-icon-->
 
-        <div id="banner">
-            <div id="banner-content-before">
-                <img src="images/products.png" alt="product1" id="banner-im1">
-            </div>
-            <div id="banner-content">
-                <h2>Sokaklarda Dolanan Bir Marka</h2>
-                <p>Başarı her zaman mükemmellikle değil, süreklilikle alakalıdır.
-                    Devamlı çalışmak başarıyı getirir, mükemmellik sonrasında gelir.
-                </p>
-                <div class="exploreBtn">
-                    <p><a href="#content">EXPLORE</a></p>
-                </div>
-                <!--EOF .exploreBtn-->
-            </div>
-            <!--EOF #banner-content-->
-            <div id="banner-content-after">
-                <img src="images/product1.png" alt="product1" class="banner-im2">
-                <img src="images/product1.png" alt="product1" class="banner-im2">
-                <img src="images/product1.png" alt="product1" class="banner-im2">
-            </div>
+        <div id="searchBtn" class="navbar-col">
+            <a href="#"><img src="images/search.png" alt="search icon" class="navIcon"></a>
+            <p class="md-lg-screen">SEARCH</p>
         </div>
-        <!--EOF #banner-->
+        <!--EOF #searchBtn-->
+
+        <div id="logo" class="navbar-col">
+            <a href="#"><img src="images/logo.png" id="logo-img" alt="logo here"></a>
+        </div>
+        <!--EOF #logo-->
+
+        <div id="shop" class="navbar-col">
+            <a href="#"><img src="images/shopping-bag.png" alt="shopping bag icon" class="navIcon"></a>
+            <p class="md-lg-screen">SHOPPING BAG</p>
+        </div>
+        <!--EOF #shop-->
+
+        <div id="login" class="navbar-col">
+            <a href="#"><img src="images/account.png" alt="sign in icon" class="navIcon"></a>
+            <p class="md-lg-screen">LOG IN</p>
+        </div>
+        <!--EOF #login-->
     </div>
-    <!--EOF #header-->
+    <!--EOF #navbar-->
+
+    <div id="banner">
+        <div id="banner-content-before">
+            <img src="images/products.png" alt="product1" id="banner-im1">
+        </div><!--EOF #banner-content-before-->
+        <div id="banner-content">
+            <h2>Sokaklarda Dolanan Bir Marka</h2>
+            <p>Başarı her zaman mükemmellikle değil, süreklilikle alakalıdır.
+                Devamlı çalışmak başarıyı getirir, mükemmellik sonrasında gelir.
+            </p>
+            <div class="exploreBtn">
+                <p><a href="index.html#content-row1">EXPLORE</a></p>
+            </div>
+            <!--EOF .exploreBtn-->
+        </div>
+        <!--EOF #banner-content-->
+        <div id="banner-content-after">
+            <img src="images/product1.png" alt="product1" class="banner-im2">
+            <img src="images/product1.png" alt="product1" class="banner-im2">
+            <img src="images/product1.png" alt="product1" class="banner-im2">
+        </div>
+    </div>
+    <!--EOF #banner-->
 
     <div id="content">
-        <hr>
-        <div id="navigate">
-            <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li>/<a href="index.html#content">Explore</a></li>
-            </ul>
+        <div id="content-row1">
+            <h2 id="content-header">EXPLORE</h2>
+            <div id="navigate">
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li>/<a href="index.html#content">Explore</a></li>
+                </ul>
+            </div>
+            <!--EOF #navigate-->
+            <div id="filter">
+                <a href="#">Filter</a>
+                <img src="images/controls-4.png" alt="filter icon" id="filterIcn">
+            </div>
+            <!--EOF #filter-->
         </div>
-        <!--EOF #navigate-->
+        <!--EOF #content-row1-->
+        
         <div id="content-part-2">
             <div id="content-sidebar">
                 <h2>Categories</h2>
@@ -103,31 +102,31 @@
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                 </div>
@@ -137,31 +136,31 @@
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                     <div class="product">
                         <img src="images/model.png" class="product-im" alt="product1">
                         <h2>Man Basic Sweatshirt</h2><br>
-                        <h3>89.99$</h3>
+                        <h2>89.99$</h2>
                     </div>
                     <!--EOF .product-->
                 </div>
@@ -169,21 +168,25 @@
             </div>
             <!--EOF #products-->
         </div>
+        <!--EOF #content-part-2-->
     </div>
     <!--EOF #content-->
 
     <footer>
         <div class="footer-row">
             <div class="footer-col">
-                <section>
+                <div class="footer-info">
                     <h3>CONTACT US</h3>
                     <p>CONTACT INFO HERE</p>
-                </section>
-                <section>
+                </div>
+                <!--EOF .footer-info-->
+                <div class="footer-info">
                     <h3>LOCATION</h3>
                     <p>LOCATION INFO ISTANBUL/TURKEY</p>
-                </section>
+                </div>
+                <!--EOF .footer-info-->
             </div>
+            <!--EOF .footer-col-->
             <div class="footer-col">
                 <h3>HELP</h3>
                 <ul>
@@ -193,22 +196,20 @@
                     <li>Click <a href="index.html" style="font-weight: bolder;">here</a> go back to home page</li>
                 </ul>
             </div>
-            <div class="footer-col">
-                
-            </div>
+            <!--EOF .footer-col-->
             <div id="credits" class="footer-col">
                 <h3>CREDITS</h3>
-                <div>Icons made by <a
-                        href="https://dribbble.com/shots/12765284-Runstore-E-commerce-Free-Icons?utm_source=Clipboard_Shot&utm_campaign=singlayn&utm_content=Runstore%20E-commerce%20Free%20Icons&utm_medium=Social_Share"
-                        title="Smashicons">Singlayn</a> from <a href="https://dribbble.com"
-                        title="Dribble">www.dribbble.com</a></div>
             </div>
-            <div id="copyright" ><small>
+            <!--EOF .footer-col-->
+            <div id="copyright"><small>
                     Copyright &copy; newostreet|store
                 </small>
             </div>
+            <!--EOF #copyright-->
         </div>
+        <!--EOF .footer-row-->
     </footer>
+    <!--EOF footer-->
 </body>
 
 </html>
