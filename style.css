@@ -484,6 +484,12 @@ footer #copyright{
     .product-im{
         width: 80%;
     }
+    .product:hover{
+        transform: translateY(-5px);
+    }
+    .product {
+        transition:transform 0.5s ;
+    }
 
     .products-col{
         float: right;
