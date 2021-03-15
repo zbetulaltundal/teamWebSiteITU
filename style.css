@@ -190,7 +190,7 @@ select {
 .product{
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 0px;
 }
 
 #products h2{
@@ -363,6 +363,9 @@ footer #copyright{
         clear: both;
         width: 100%;
     }
+
+
+    
 
     #content-sidebar{
         display: block;
