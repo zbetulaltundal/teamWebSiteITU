@@ -96,6 +96,19 @@ h3{
 .exploreBtn a:hover{
     color: #483d8b;;
 }
+/*product filter*/
+
+.row-2 {
+position:relative;
+
+
+}
+
+select {
+    position: absolute;
+    right: 10px;
+}
+
 
 /*Styling the content*/
 #content{
@@ -177,7 +190,7 @@ h3{
 .product{
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 0px;
 }
 
 #products h2{
@@ -351,6 +364,9 @@ footer #copyright{
         width: 100%;
     }
 
+
+    
+
     #content-sidebar{
         display: block;
         width: 20%;
@@ -360,6 +376,7 @@ footer #copyright{
 
     #content-sidebar ul{
         list-style-type: none;
+        
     }
 
     #content-sidebar a{
@@ -367,6 +384,7 @@ footer #copyright{
         font-size: 16px;
         float: left;
         padding: 10px;
+        
     }
     
     #content-sidebar h2{
@@ -501,7 +519,12 @@ footer #copyright{
         float: left;
         padding: 10px 0px 0px 10px;
     }
-
+    .product:hover{
+        transform: translateY(-5px);
+    }
+    .product {
+        transition:transform 0.5s ;
+    }
     /*Styling the content*/
     #content{
         margin: 10px 20px;
