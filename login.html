@@ -1,15 +1,50 @@
-<!doctype html>
-<html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>newostreet|store</title>
+    <title>Login|store</title>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div id="navbar">
+        <div class="left-side">
+            <div class="navbar-col" class="categories-icon">
+                <a href="#"><img src="images/menu.png" alt="categories icon" class="categories-icon"></a>
+            </div>
+            <div class="navbar-col">
+                <a href="#"><img id="logo-img" src="images/logo.png" alt="logo here"></a>
+            </div>
+            <div class="categories-part">
+                <ul>
+                    <li><a href="all-items.html">All Items</a></li>
+                    <li><a href="sweatshirts.html">Sweatshirts</a></li>
+                    <li><a href="t-shirts.html">T-shirts</a></li>
+                    <li><a href="coats.html">Coats</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="navbar-col" id="login">
+                <a href="#"><img src="images/account.png" alt="sign in icon" class="navIcon"></a>
+                <a href="#" class="md-lg-screen">LOG IN</a>
+            </div>
+            <div class="navbar-col" id="shopping-bag">
+                <a href="#"><img src="images/shopping-bag.png" alt="shopping bag icon" class="navIcon"></a>
+                <a href="#" class="md-lg-screen">SHOPPING BAG</a>
+            </div>
+            <div class="searchBox" id="search">
+                <form action="/action_page.php">
+                    <input id="searchField" type="text" placeholder="Search Product">
+                    <input type="image" src="images/search.png" alt="Submit" width="16" height="16">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--EOF #navbar-->
 
 </body>
 </html>
