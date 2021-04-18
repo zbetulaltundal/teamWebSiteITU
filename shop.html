@@ -7,7 +7,7 @@
     <title>newostreet|shop</title>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -17,29 +17,23 @@
     <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" onclick="myFunction()" class="navbar-toggle" data-toggle="collapse" id="category-btn"
-                    data-target="#nav-links">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" id="category-btn"
+                    data-target="#nav-links" aria-expanded="false">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar" id="icon-bar-bottom"></span>
                 </button>
                 <a href="index.html"><img id="logo" src="images/logo.png" alt="Logo Image"></a>
             </div>
-            <div>
-                <ul class="nav navbar-nav" id="icons">
-                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span></a></li>
-                </ul>
-            </div>
-            <div id="nav-links">
+            <div id="nav-links" class="collapse navbar-collapse">
                 <ul class="nav nav-justified" id="nav-cat-links">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="shop.html">Shop</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <h1 style="font-size: 80px;color: rgba(8, 3, 19, 0.849);">ALL ITEMS</h1>
     <div class="row-2 ">
 
@@ -165,7 +159,8 @@
                         <li>Return & Exchange Policy</li>
                         <li>Payment Options</li>
                         <li>Delivery Information</li>
-                        <li>Click <a href="index.html" style="font-weight: bolder;">here</a> go back to home page</li>
+                        <li>Click <a href="index.html" style="font-weight: bolder;">here</a> go back to home page
+                        </li>
                     </ul>
                 </section>
                 <hr class="visible-xs">
