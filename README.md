@@ -1,12 +1,12 @@
 # teamWebSiteITU
-This website is created for a sweatshirt brand.
+This website is created for a sweatshirt brand. The website is connected to the shopier page of the brand.
 
 # Used Technologies
-Html
+Html5
+Bootstrap3
 Css
-Sql
+Javascript
 
 # Authors
 Mert Özdemir
 Zeynep Betül Altundal
-Başak Mehlepçi
